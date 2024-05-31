@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Basics</title>
+    <style>
+      body{
+        background-image: url('https://ragdollcare.com/wp-content/uploads/2022/09/Black-Ragdoll-Cat-Price.jpg?ezimgfmt=ngcb1/notWebP');
+        box-shadow: rgb(32, 30, 80);}
+
+      h1{
+      text-align: center;
+      text-decoration: double;
+      color: white;
+      font-size: xx-large;
+      font-weight: bolder;
+      font-stretch: extra-expanded;
+      font-style: italic;
+      }
+      h2{
+        color: white;
+        text-align: center;
+
+      }
+      img{
+        display: block;
+        margin: auto;
+    
+      }
+      p{
+        text-align: center;
+        text-decoration: underline;
+        color: white;
+      }
+      ul{
+        color: white;
+        list-style: none;
+        font-size: 22px;
+        padding: 0;
+        text-align: center;
+      }
+      .character{
+      font-size: large;
+      font-weight: bold;
+      }
+      .size{
+        font-size: large;
+      font-weight: bold;
+      }
+      .height{
+        font-size: large;
+      font-weight: bold;
+      }
+      .fur{font-size: large;
+      font-weight: bold;
+     }
+      .fur-color{ 
+      font-size: large;
+      font-weight: bold;
+    }
+    .eyes{
+      font-size: large;
+      font-weight: bold;
+    }
+    .country{
+     font-size: large;
+      font-weight: bold;
+
+    }
+    
+    button{
+      display: block;
+      margin: 0 auto;
+      background: black;
+      color: white;
+      cursor: pointer;
+      font-size: 20px;
+      border: 1px solid;
+      line-height: 20px;
+      padding: 18px 22px;
+      transition: all 200ms ease-in-out;
+    }
+    button:hover{
+      color: red;
+      background: white;
+    }
+    .read{
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    </style>
+  </head>
+  <body>
+  <strong>
+    <em>
+    <h1> TYPES OF CATS
+
+    </h1>
+    <hr />
+</strong>
+</em>
+<h2>My favorite is the Ragdoll breed</h2>
+  <hr />
+  <p>
+<strong>
+<em>CHARACTERISTICS </em>
+</strong>
+ <ul>
+    <li>
+    <span class="character"> PERSONALITY:</span>, easygoing, cuddly, social</li>
+<li>
+  <span class="size">WEIGHT:</span> Up to 20 pounds </li>
+<li>
+  <span class="height">LENGTH: </span> to 40 inches</li>
+<li>
+  <span class="fur">COAT LENGTH:</span> Long hair</li>
+<li>
+  <span class="fur-color">COAT COLOR: </span>Chocolate, red, seal, blue, lilac, and cream</li>
+<li> 
+  <span class="eyes">EYE COLOR:</span> Blue</li>
+<li>
+  <span class="country"> ORIGIN:</span> California</li>
+  </ul>
+</p>
+<br />
+<div class="column">
+  <div class="row">
+<img src="https://meowwiki.com/images/ragdoll-cat-1.jpg" alt="ragdoll-cat-1"
+width="200" />
+</div>
+<div class="row">
+  <img src="https://meowwiki.com/images/ragdoll-kittens-768x527.jpg" alt="ragdoll-cat-2"
+  width="200" />
+</div>
+<div class="row">
+  <img src="https://meowwiki.com/images/ragdoll-cat-1.jpg" alt="ragdoll-cat-3"
+  width="200" />
+</div>
+<a href="https://en.wikipedia.org/wiki/Ragdoll" target="_blank"> READ MORE HERE</a>
+<button> View more images
+</button>
+<strong>
+<p>
+This page was built by MOSA PITSO
+</p>
+</strong>
+<script>
+  function view() {
+    let pet = prompt("Do you prefer cats or dogs as pets?");
+    let heading = document.querySelector('h1');
+    if (pet === "cats") {
+      heading.innerHTML = "Hi! Cat parent, you have come to the right place";
+    } else {
+      heading.innerHTML = "You have come to the wrong page";
+    }
+  }
+
+  let viewButton = document.querySelector("button");
+  viewButton.addEventListener("click", view); 
+</script>
+</body>
+</html>
